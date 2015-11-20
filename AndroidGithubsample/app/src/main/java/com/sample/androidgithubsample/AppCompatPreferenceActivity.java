@@ -25,7 +25,7 @@ public abstract class AppCompatPreferenceActivity extends PreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getDelegate().installViewFactory();
         getDelegate().onCreate(savedInstanceState);
-        Log.d("test", "test");
+        Log.d("test", "welcome");
         super.onCreate(savedInstanceState);
     }
 
